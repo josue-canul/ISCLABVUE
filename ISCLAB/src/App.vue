@@ -1,19 +1,23 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import miscomponentes from './components/miscomponentes.vue'
+import inicio from './components/inicio.vue'
+import QueHacemos from './components/QueHacemos.vue';
+import SitioWeb from'./components/SitioWeb.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
+    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="500" height="500" />
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <h3>
+      <miscomponentes msg="Laboratorio de sistemas y aplicaciones web" />
+      </h3>
     </div>
   </header>
-
   <main>
-    <TheWelcome />
+    <inicio />
+    <QueHacemos/>
+    <SitioWeb/>
   </main>
 </template>
 
